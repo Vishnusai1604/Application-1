@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+
+            width: fit-content;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+            <label>salutation</label><br />
+            <select>
+                <option value="--None--">
+                    --None--
+                </option>
+                <option value="Mr.">Mr.</option>
+                <option value="Mr.">Mrs.</option>
+            </select>
+            <br /> <label for="fname">First Name:&nbsp;&ensp;&nbsp;&ensp;</label>
+            <input type="text" id="fname" name="fname"><br />
+            <br /> <label for="lname">Last Name:&nbsp;&ensp;&nbsp;&ensp;</label>
+            <input type="text" id="lname" name="fname"><br /><br />
+            <label>Gender&nbsp;:&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="Female"><br /><br />
+            <label for="email">Email&nbsp;:&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&ensp;</label>
+            <input type="text" id="email" name="email"><br /><br />
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate"><br><br>
+            <label>Address:</label><br />
+            <textarea rows="3" cols="30"></textarea><br />
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
